@@ -140,8 +140,15 @@ body {
     -------------------------------------------------- */
 
 .jumbotron {
-    margin-bottom: 60px;
-    background-color: #8bf793 !important;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    background: transparent;
+    margin-bottom: 20px;
+    /*background-color: #8bf793 !important;*/
+}
+
+.centerfy {
+    text-align: center;
 }
 
 
@@ -150,11 +157,16 @@ body {
 
 .mySlides {
     display: none;
-    margin-left: 20px;
 }
 
-#myslideshow {
-    position: center;
+.marketing .span6 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.marketing h1 {
+    font-weight: normal;
+    text-align: center;
 }
 
 
@@ -176,6 +188,9 @@ body {
     .carousel img {
         width: auto;
         height: 500px;
+    }
+    .jumbotron .centerfy {
+        margin-left: 10px
     }
     .featurette {
         height: auto;
@@ -220,7 +235,10 @@ body {
     .carousel-caption .btn {
         font-size: 18px;
     }
-    .marketing .span4 + .span4 {
+    .jumbotron .container h3 {
+        font-size: 16px;
+    }
+    .marketing .span6 + .span6 {
         margin-top: 40px;
     }
     .featurette-heading {
