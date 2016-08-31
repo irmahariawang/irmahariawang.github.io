@@ -14,3 +14,7 @@ function slideshow() {
     x[myIndex - 1].style.display = "block";
     setTimeout(slideshow, 2000); // Change image every 2 seconds
 }
+$(function () {
+    // carousel demo
+    $('#myCarousel').carousel()
+})

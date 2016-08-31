@@ -5,8 +5,23 @@
 /* Padding below the footer and lighter body text */
 
 body {
-    padding-bottom: 40px;
+    /*padding-bottom: 40px;*/
     color: #5a5a5a;
+}
+
+@font-face {
+    font-family: 'Dosis-Regular';
+    src: url(../fonts/Dosis-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Dosis-Bold';
+    src: url(../fonts/Dosis-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Dosis-Medium';
+    src: url(../fonts/Dosis-Medium.ttf) format('truetype');
 }
 
 
@@ -167,6 +182,190 @@ body {
 .marketing h1 {
     font-weight: normal;
     text-align: center;
+}
+
+
+/*----subscribe---*/
+
+.subscribe {
+    background: #ed645c;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.subscribe h3 {
+    color: #fff;
+    padding-bottom: 1em;
+    margin: 0;
+    font-family: 'Dosis-Medium';
+    font-size: 2.2em;
+}
+
+.subscribe form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.subscribe form input[type="text"] {
+    border: 0;
+    /*outline: 0;*/
+    outline: none;
+    border: 1px solid #fff;
+    width: 74%;
+    font-size: 1em;
+    padding: 0.6em 1em;
+    /*color: #7D7D7D;*/
+}
+
+.subscribe form input[type="submit"] {
+    outline: none;
+    border: 1px solid #fff;
+    /*width: 10%;*/
+    padding: 0.55em;
+    background: none;
+    margin-left: 1em;
+    margin-top: -10px;
+    /*margin-right: 1em;*/
+    color: #fff;
+}
+
+.subscribe form input[type="submit"]:hover {
+    color: #333;
+    border: 1px solid #fff;
+    background: #fff;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+
+/*----/subscribe---*/
+
+
+/*--footer--*/
+
+.footer {
+    background: #eee;
+    padding: 2em 0;
+    border-top: 1px solid #c0c0c0;
+}
+
+.about-us h3 {
+    color: #555;
+    font-size: 1.8em;
+    font-family: 'Dosis-Medium';
+    margin-bottom: 1em;
+}
+
+.about-us p {
+    line-height: 1.7em;
+    color: #7F7F7F;
+    font-size: 0.9em;
+}
+
+.ftr-grid h3 {
+    font-size: 1.8em;
+    color: #555;
+    font-family: 'Dosis-Medium';
+    margin: 0 0 1em;
+}
+
+ul.nav-bottom li {
+    list-style: none;
+    padding: 2px 0;
+}
+
+ul.nav-bottom li a {
+    text-decoration: none;
+    color: #7F7F7F;
+    font-size: 0.9em;
+    display: inline-block;
+}
+
+ul.nav-bottom li a:hover {
+    color: #ed645c;
+}
+
+ul.nav-bottom li:nth-child(1) {
+    margin: 0;
+}
+
+.copywrite {
+    padding: 1em 0;
+    background: #7D7D7D;
+}
+
+.copy {
+    float: left;
+}
+
+.copy p {
+    color: #fff;
+    font-size: 0.95em;
+    padding-top: 10px;
+}
+
+.copy p a {
+    color: #fff;
+}
+
+.copy p a:hover {
+    color: #ed645c;
+}
+
+.social {
+    margin: 0em 0;
+    float: right;
+}
+
+.social i {
+    width: 27px;
+    height: 27px;
+    background: url('../img/social.png') no-repeat 0px 0px;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+a i.facebook {
+    background-position: -3px -2px;
+}
+
+a i.twitter {
+    background-position: -43px -3px;
+}
+
+a i.dribble {
+    background-position: -83px -3px;
+}
+
+a i.google {
+    background-position: -126px -2px
+}
+
+a i.youtube {
+    background-position: -167px -3px;
+}
+
+a i.facebook:hover {
+    background-position: -3px -36px;
+}
+
+a i.twitter:hover {
+    background-position: -43px -36px;
+}
+
+a i.dribble:hover {
+    background-position: -83px -36px;
+}
+
+a i.google:hover {
+    background-position: -126px -36px
+}
+
+a i.youtube:hover {
+    background-position: -167px -36px;
 }
 
 
