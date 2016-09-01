@@ -90,6 +90,26 @@ body {
     margin-top: 10px;
 }
 
+.navbar-inverse .nav > li > a {
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(255, 255, 255);
+}
+
+.navbar-inverse .nav > li > a:hover {
+    color: red;
+}
+
+.navbar-inverse .brand {
+    color: black;
+    text-shadow: white;
+    font-family: 'Dosis-Bold';
+    font-size: 2em;
+}
+
+.navbar-inverse .brand:hover {
+    color: red;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
     -------------------------------------------------- */
@@ -129,13 +149,14 @@ body {
 }
 
 .carousel-caption {
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.1);
     position: static;
-    max-width: 600px;
-    padding: 0 20px;
-    margin-top: 200px;
-    /*margin-left: 25%;*/
+    max-width: 500px;
+    top: 50%;
+    /*margin-top: 200px;*/
+    margin-left: 30%;
     text-align: center;
+    transform: translateY(250%);
 }
 
 .carousel-caption h1,
@@ -366,6 +387,39 @@ a i.google:hover {
 
 a i.youtube:hover {
     background-position: -167px -36px;
+}
+
+
+/* BREADCRUMBS
+    ------------------------------------------------- */
+
+.headdings,
+.Buttons,
+.progress-bars,
+.alerts,
+.bread-crumbs,
+.pagenatin,
+.appearance,
+.distracted {
+    padding: 2em 0;
+    padding: 5em 5em;
+}
+
+.breadcrumb {
+    margin: 5em 0 2em!important;
+}
+
+
+/* PRODUCT
+    ------------------------------------------------- */
+
+.product-model h2,
+h2.top,
+.contact h3 {
+    font-size: 2.5em;
+    font-family: 'Dosis-Bold';
+    color: #333;
+    text-align: center;
 }
 
 
