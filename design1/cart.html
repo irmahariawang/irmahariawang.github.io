@@ -10,7 +10,9 @@
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
     <link href="css/product.css" rel="stylesheet">
-    <link rel="icon" href="icon/icon.ico"> </head>
+    <link href="css/cart.css" rel="stylesheet">
+    <link rel="icon" href="icon/icon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'> </head>
 
 <body>
     <!-- NAVBAR
@@ -51,91 +53,31 @@
     <!-- PAGE CONTENT
         ===================================================== -->
     <!-- Jumbotron Header -->
-    <div class="jumbotron" style="background: url(img/boy2.jpg) no-repeat top center; background-size: cover;">
+    <div class="jumbotron" style="background: url(img/cart.jpg) no-repeat top center; background-size: cover;">
         <div class="jumbotron-caption">
-            <h1>Boys Collection</h1> </div>
+            <h1>Shopping Cart</h1> </div>
     </div>
     <!-- Page Features -->
-    <div class="container">
-        <div class="row text-center">
-            <div class="span3 span6 hero-feature">
-                <div class="thumbnail"> <img src="img/boys7.jpg" alt="">
-                    <div class="caption">
-                        <h3>Bomber Jacket</h3>
-                        <p>Rp. 250.000</p>
-                        <p> <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a> </p>
-                    </div>
-                </div>
-            </div>
-            <div class="span3 span6 hero-feature">
-                <div class="thumbnail"> <img src="img/boys8.jpg" alt="">
-                    <div class="caption">
-                        <h3>Denim Jacket</h3>
-                        <p>Rp. 300.000</p>
-                        <p> <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a> </p>
-                    </div>
-                </div>
-            </div>
-            <div class="span3 span6 hero-feature">
-                <div class="thumbnail"> <img src="img/boys1.jpg" alt="">
-                    <div class="caption">
-                        <h3>Sweatshirt</h3>
-                        <p>200.000</p>
-                        <p> <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a> </p>
-                    </div>
-                </div>
-            </div>
-            <div class="span3 span6 hero-feature">
-                <div class="thumbnail"> <img src="img/boys2.jpg" alt="">
-                    <div class="caption">
-                        <h3>3-Pack T-shirt</h3>
-                        <p>Rp. 300.000</p>
-                        <p> <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a> </p>
-                    </div>
-                </div>
-            </div>
+    <div class="row text-center">
+        <div class="span5 span12">
+            <div class="bigcart"></div>
+            <h3>Your shopping cart</h3>
+            <p> Thanks for choosing item(s) at our store. Please review your cart.</p>
         </div>
-        <!-- TEST ================================================= -->
-        <div class="row text-center">
-            <div class="span3 span6 hero-feature">
-                <div class="thumbnail"> <img src="img/boys3.jpg" alt="">
-                    <div class="caption">
-                        <h3>Washed Denim Jeans</h3>
-                        <p>Rp. 330.000</p>
-                        <p> <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a> </p>
-                    </div>
-                </div>
-            </div>
-            <div class="span3 span6 hero-feature">
-                <div class="thumbnail"> <img src="img/boys4.jpg" alt="">
-                    <div class="caption">
-                        <h3>Red Stars Short Pants</h3>
-                        <p>Rp. 180.000</p>
-                        <p> <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a> </p>
-                    </div>
-                </div>
-            </div>
-            <div class="span3 span6 hero-feature">
-                <div class="thumbnail"> <img src="img/boys5.jpg" alt="">
-                    <div class="caption">
-                        <h3>Green Chino Short Pants</h3>
-                        <p>150.000</p>
-                        <p> <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a> </p>
-                    </div>
-                </div>
-            </div>
-            <div class="span3 span6 hero-feature">
-                <div class="thumbnail"> <img src="img/boys6.jpg" alt="">
-                    <div class="caption">
-                        <h3>Cars Jacket Waterproof</h3>
-                        <p>Rp. 250.000</p>
-                        <p> <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a> </p>
-                    </div>
-                </div>
-            </div>
+        <div class="span7 span12 text-left">
+            <ul>
+                <li class="row list-inline columnCaptions"> <span>QTY</span> <span>ITEM</span> <span>Price</span> </li>
+                <li class="row"> <span class="quantity">1</span> <span class="itemName">Birthday Cake</span> <span class="popbtn"><a class="arrow"></a></span> <span class="price">$49.95</span> </li>
+                <li class="row"> <span class="quantity">50</span> <span class="itemName">Party Cups</span> <span class="popbtn"><a class="arrow"></a></span> <span class="price">$5.00</span> </li>
+                <li class="row"> <span class="quantity">20</span> <span class="itemName">Beer kegs</span> <span class="popbtn"><a class="arrow"></a></span> <span class="price">$919.99</span> </li>
+                <li class="row"> <span class="quantity">18</span> <span class="itemName">Pound of beef</span> <span class="popbtn"><a class="arrow"></a></span> <span class="price">$269.45</span> </li>
+                <li class="row"> <span class="quantity">1</span> <span class="itemName">Bullet-proof vest</span> <span class="popbtn" data-parent="#asd" data-toggle="collapse" data-target="#demo"><a class="arrow"></a></span> <span class="price">$450.00</span> </li>
+                <li class="row totals"> <span class="itemName">Total:</span> <span class="price">$1694.43</span> <span class="order"> <a class="text-center">ORDER</a></span> </li>
+            </ul>
         </div>
-        <!-- /.row -->
     </div>
+    <!-- The popover content -->
+    <div id="popover" style="display: none"> <a href="#"><span class="glyphicon glyphicon-pencil"></span></a> <a href="#"><span class="glyphicon glyphicon-remove"></span></a> </div>
     <!-- SUBSCRIBE
 ====================================================== -->
     <div class="subscribe">
@@ -172,7 +114,7 @@
                     <ul class="nav-bottom">
                         <li><a href="login.html">Login</a></li>
                         <li><a href="#">FAQ</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Contact</a></li>
                         <li><a href="#">Shipping</a></li>
                         <li><a href="#">Membership</a></li>
                     </ul>
@@ -217,4 +159,5 @@
     <script src="js/bootstrap-carousel.js"></script>
     <script src="js/bootstrap-typeahead.js"></script>
     <script src="js/holder/holder.js"></script>
+    <script src="js/customjs.js"></script>
 </body>

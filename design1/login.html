@@ -10,6 +10,7 @@
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
     <link href="css/product.css" rel="stylesheet">
+    <link href="css/login.css" rel="stylesheet">
     <link rel="icon" href="icon/icon.ico"> </head>
 
 <body>
@@ -48,93 +49,30 @@
         <!-- /.container -->
     </div>
     <!-- /.navbar-wrapper -->
-    <!-- PAGE CONTENT
-        ===================================================== -->
-    <!-- Jumbotron Header -->
-    <div class="jumbotron" style="background: url(img/boy2.jpg) no-repeat top center; background-size: cover;">
-        <div class="jumbotron-caption">
-            <h1>Boys Collection</h1> </div>
-    </div>
-    <!-- Page Features -->
-    <div class="container">
-        <div class="row text-center">
-            <div class="span3 span6 hero-feature">
-                <div class="thumbnail"> <img src="img/boys7.jpg" alt="">
-                    <div class="caption">
-                        <h3>Bomber Jacket</h3>
-                        <p>Rp. 250.000</p>
-                        <p> <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a> </p>
-                    </div>
+    <!--login modal-->
+    <div id="loginModal" class="modal show" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h1 class="text-center">Login</h1> </div>
+                <div class="modal-body">
+                    <form class="form span12 center-block">
+                        <div class="form-group">
+                            <input type="text" class="form-control input-lg" placeholder="Email"> </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control input-lg" placeholder="Password"> </div>
+                        <div class="form-group">
+                            <button class="btn btn-primary btn-lg btn-block">Sign In</button> <span class="pull-right"><a href="#">Register</a></span><span><a href="#">Need help?</a></span> </div>
+                    </form>
                 </div>
-            </div>
-            <div class="span3 span6 hero-feature">
-                <div class="thumbnail"> <img src="img/boys8.jpg" alt="">
-                    <div class="caption">
-                        <h3>Denim Jacket</h3>
-                        <p>Rp. 300.000</p>
-                        <p> <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a> </p>
-                    </div>
-                </div>
-            </div>
-            <div class="span3 span6 hero-feature">
-                <div class="thumbnail"> <img src="img/boys1.jpg" alt="">
-                    <div class="caption">
-                        <h3>Sweatshirt</h3>
-                        <p>200.000</p>
-                        <p> <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a> </p>
-                    </div>
-                </div>
-            </div>
-            <div class="span3 span6 hero-feature">
-                <div class="thumbnail"> <img src="img/boys2.jpg" alt="">
-                    <div class="caption">
-                        <h3>3-Pack T-shirt</h3>
-                        <p>Rp. 300.000</p>
-                        <p> <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a> </p>
+                <div class="modal-footer">
+                    <div class="col-md-12">
+                        <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- TEST ================================================= -->
-        <div class="row text-center">
-            <div class="span3 span6 hero-feature">
-                <div class="thumbnail"> <img src="img/boys3.jpg" alt="">
-                    <div class="caption">
-                        <h3>Washed Denim Jeans</h3>
-                        <p>Rp. 330.000</p>
-                        <p> <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a> </p>
-                    </div>
-                </div>
-            </div>
-            <div class="span3 span6 hero-feature">
-                <div class="thumbnail"> <img src="img/boys4.jpg" alt="">
-                    <div class="caption">
-                        <h3>Red Stars Short Pants</h3>
-                        <p>Rp. 180.000</p>
-                        <p> <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a> </p>
-                    </div>
-                </div>
-            </div>
-            <div class="span3 span6 hero-feature">
-                <div class="thumbnail"> <img src="img/boys5.jpg" alt="">
-                    <div class="caption">
-                        <h3>Green Chino Short Pants</h3>
-                        <p>150.000</p>
-                        <p> <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a> </p>
-                    </div>
-                </div>
-            </div>
-            <div class="span3 span6 hero-feature">
-                <div class="thumbnail"> <img src="img/boys6.jpg" alt="">
-                    <div class="caption">
-                        <h3>Cars Jacket Waterproof</h3>
-                        <p>Rp. 250.000</p>
-                        <p> <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a> </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /.row -->
     </div>
     <!-- SUBSCRIBE
 ====================================================== -->
@@ -217,4 +155,5 @@
     <script src="js/bootstrap-carousel.js"></script>
     <script src="js/bootstrap-typeahead.js"></script>
     <script src="js/holder/holder.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 </body>
